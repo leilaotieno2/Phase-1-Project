@@ -1,0 +1,99 @@
+{
+    "flights": [
+      {
+        "from": "New York",
+        "to": "London",
+        "depart": "2023-05-10T08:00:00Z",
+        "arrive": "2023-05-10T12:00:00Z",
+        "price": 550
+      },
+      {
+        "from": "Los Angeles",
+        "to": "Paris",
+        "depart": "2023-05-15T10:30:00Z",
+        "arrive": "2023-05-16T03:00:00Z",
+        "price": 750
+      },
+      {
+        "from": "Chicago",
+        "to": "Dubai",
+        "depart": "2023-05-20T18:15:00Z",
+        "arrive": "2023-05-21T12:45:00Z",
+        "price": 950
+      },
+      {
+        "from": "Miami",
+        "to": "Cape Town",
+        "depart": "2023-05-25T13:00:00Z",
+        "arrive": "2023-05-26T05:30:00Z",
+        "price": 1100
+      },
+      {
+        "from": "Atlanta",
+        "to": "Lagos",
+        "depart": "2023-06-01T11:45:00Z",
+        "arrive": "2023-06-02T02:30:00Z",
+        "price": 900
+      },
+      {
+        "from": "Houston",
+        "to": "Johannesburg",
+        "depart": "2023-06-08T09:30:00Z",
+        "arrive": "2023-06-09T03:00:00Z",
+        "price": 1200
+      },
+      {
+        "from": "Washington DC",
+        "to": "Accra",
+        "depart": "2023-06-14T17:30:00Z",
+        "arrive": "2023-06-15T06:30:00Z",
+        "price": 850
+      },
+      {
+        "from": "San Francisco",
+        "to": "Cairo",
+        "depart": "2023-06-21T15:45:00Z",
+        "arrive": "2023-06-22T06:00:00Z",
+        "price": 1000
+      },
+      {
+        "from": "Seattle",
+        "to": "Nairobi",
+        "depart": "2023-06-28T12:15:00Z",
+        "arrive": "2023-06-29T02:45:00Z",
+        "price": 950
+      },
+      {
+        "from": "New York",
+        "to": "Lagos",
+        "depart": "2023-07-05T08:30:00Z",
+        "arrive": "2023-07-06T00:30:00Z",
+        "price": 900
+      },
+      {
+        "from": "Los Angeles",
+        "to": "Cairo",
+        "depart": "2023-07-12T10:00:00Z",
+        "arrive": "2023-07-13T02:15:00Z",
+        "price": 1050
+      },
+      {
+        "from": "Los Angeles",
+        "to": "Johannesburg",
+        "depart": "2023-07-12T10:00:00Z",
+        "arrive": "2023-07-13T02:15:00Z",
+        "price": 1100
+      },
+      {
+        "from": "Seattle",
+        "to": "Cairo",
+        "depart": "2023-07-12T10:00:00Z",
+        "arrive": "2023-07-13T02:15:00Z",
+        "price": 1800
+      }
+]
+}
+
+
+
+
