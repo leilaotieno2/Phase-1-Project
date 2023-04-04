@@ -1,74 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>FlyEase Airlines</title>
-    <link rel="stylesheet" href="index.css">
-
-</head>
 <body>
-	<header>
-		<h1>FlyEase Airlines</h1>
-	</header>
-	
-	<main>
-		<h2>Book Your Flight</h2>
-		<form>
-			<label for="departure">Departure Date:</label>
-			<input type="date" id="departure" name="departure">
-			<label for="return">Return Date:</label>
-			<input type="date" id="return" name="return">
-			<label for="destination">Destination:</label>
-			<select id="destination" name="destination">
-				<option value="New York">New York</option>
-				<option value="Los Angeles">Los Angeles</option>
-				<option value="Chicago">Chicago</option>
-			</select>
-			<label for="passengers">Passengers:</label>
-			<input type="number" id="passengers" name="passengers" min="1" max="10" value="1">
-			<button type="submit">Search Flights</button>
-		</form>
-		
-		<h2>Available Flights</h2>
-		<ul>
-			<li>Flight 123: New York to Los Angeles</li>
-			<li>Flight 456: Los Angeles to Chicago</li>
-			<li>Flight 789: Chicago to New York</li>
-		</ul>
-		
-		<h2>Book a Flight</h2>
-		<form>
-			<label for="flight">Flight:</label>
-			<select id="flight" name="flight">
-				<option value="123">Flight 123: New York to Los Angeles</option>
-				<option value="456">Flight 456: Los Angeles to Chicago</option>
-				<option value="789">Flight 789: Chicago to New York</option>
-			</select>
-			<label for="passengers">Passengers:</label>
-			<input type="number" id="passengers" name="passengers" min="1" max="10" value="1">
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name">
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email">
-			<button type="submit">Book Flight</button>
-		</form>
-		
-		<h2>Cancel a Flight</h2>
-		<form>
-			<label for="booking">Booking ID:</label>
-			<input type="text" id="booking" name="booking">
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email">
-			<button type="submit">Cancel Flight</button>
-		</form>
-		
-		<h2>Rewards Program</h2>
-		<p>Earn reward points with each flight you book and redeem them for discounts on future flights!</p>
-	</main>
-	
-	<footer>
-		<p>Copyright &copy; FlyEase Airlines</p>
-	</footer>
-    <script src="index.js"></script>
-    <script src="db.json"></script>
-</body>
-</html>
+    <div class="container">
+      <img src="https://i.pinimg.com/736x/46/f6/22/46f622a0d94f107bb3a2791fb51c852c.jpg" alt="Airplane" />
+      <header>
+        <h1>Welcome to FlyEase</h1>
+      </header>
+      <main>
+        <form>
+          <label for="from">From:</label>
+          <input type="text" id="from" name="from" placeholder="Enter a city" />
+  
+          <label for="to">To:</label>
+          <input type="text" id="to" name="to" placeholder="Enter a city" />
+  
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+  
+          <label for="class">Class:</label>
+          <select id="class" name="class">
+            <option value="economy">Economy</option>
+            <option value="business">Business</option>
+            <option value="first">First</option>
+          </select>
+  
+          <button type="submit">
+  
