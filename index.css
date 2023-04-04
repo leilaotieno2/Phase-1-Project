@@ -1,12 +1,15 @@
 /* Set body styles */
 body {
     background: linear-gradient(to bottom, #F6D959, #FEEB90);
+    background-image: url('https://i.pinimg.com/736x/46/f6/22/46f622a0d94f107bb3a2791fb51c852c.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   /* Set container styles */
   .container {
     position: relative;
-    z-index: 1;
   }
   
   /* Set image styles */
@@ -21,7 +24,7 @@ body {
   
   /* Set header styles */
   header {
-    background-color: #0B3D91;
+    background-color:#91670b ;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -51,16 +54,17 @@ body {
     margin-bottom: 5px;
   }
   
-  input, select {
+  input,
+  select {
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: none;
   }
   
-  button[type="submit"] {
+  button[type='submit'] {
     padding: 10px;
-    background-color: #0B3D91;
+    background-color:#91670b;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -69,9 +73,9 @@ body {
     font-weight: bold;
   }
   
-  button[type="submit"]:hover {
+  button[type='submit']:hover {
     background-color: #fff;
-    color: #0B3D91;
+    color: #91670b;
     transition: all 0.3s ease;
   }
   
@@ -88,7 +92,7 @@ body {
   
   /* Set footer styles */
   footer {
-    background-color: #0B3D91;
+    background-color: #91670b;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -100,5 +104,12 @@ body {
   
   footer p {
     margin: 0;
+  }
+  
+  @font-face {
+    font-family: 'Retro';
+    src: url('path/to/retro-font-file.woff2') format('woff2'), url('path/to/retro-font-file.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
   
