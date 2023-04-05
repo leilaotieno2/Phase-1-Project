@@ -1,99 +1,87 @@
 {
-    "flights": [
-      {
-        "from": "New York",
-        "to": "London",
-        "depart": "2023-05-10T08:00:00Z",
-        "arrive": "2023-05-10T12:00:00Z",
-        "price": 550
-      },
-      {
-        "from": "Los Angeles",
-        "to": "Paris",
-        "depart": "2023-05-15T10:30:00Z",
-        "arrive": "2023-05-16T03:00:00Z",
-        "price": 750
-      },
-      {
-        "from": "Chicago",
-        "to": "Dubai",
-        "depart": "2023-05-20T18:15:00Z",
-        "arrive": "2023-05-21T12:45:00Z",
-        "price": 950
-      },
-      {
-        "from": "Miami",
-        "to": "Cape Town",
-        "depart": "2023-05-25T13:00:00Z",
-        "arrive": "2023-05-26T05:30:00Z",
-        "price": 1100
-      },
-      {
-        "from": "Atlanta",
-        "to": "Lagos",
-        "depart": "2023-06-01T11:45:00Z",
-        "arrive": "2023-06-02T02:30:00Z",
-        "price": 900
-      },
-      {
-        "from": "Houston",
-        "to": "Johannesburg",
-        "depart": "2023-06-08T09:30:00Z",
-        "arrive": "2023-06-09T03:00:00Z",
-        "price": 1200
-      },
-      {
-        "from": "Washington DC",
-        "to": "Accra",
-        "depart": "2023-06-14T17:30:00Z",
-        "arrive": "2023-06-15T06:30:00Z",
-        "price": 850
-      },
-      {
-        "from": "San Francisco",
-        "to": "Cairo",
-        "depart": "2023-06-21T15:45:00Z",
-        "arrive": "2023-06-22T06:00:00Z",
-        "price": 1000
-      },
-      {
-        "from": "Seattle",
-        "to": "Nairobi",
-        "depart": "2023-06-28T12:15:00Z",
-        "arrive": "2023-06-29T02:45:00Z",
-        "price": 950
-      },
-      {
-        "from": "New York",
-        "to": "Lagos",
-        "depart": "2023-07-05T08:30:00Z",
-        "arrive": "2023-07-06T00:30:00Z",
-        "price": 900
-      },
-      {
-        "from": "Los Angeles",
-        "to": "Cairo",
-        "depart": "2023-07-12T10:00:00Z",
-        "arrive": "2023-07-13T02:15:00Z",
-        "price": 1050
-      },
-      {
-        "from": "Los Angeles",
-        "to": "Johannesburg",
-        "depart": "2023-07-12T10:00:00Z",
-        "arrive": "2023-07-13T02:15:00Z",
-        "price": 1100
-      },
-      {
-        "from": "Seattle",
-        "to": "Cairo",
-        "depart": "2023-07-12T10:00:00Z",
-        "arrive": "2023-07-13T02:15:00Z",
-        "price": 1800
-      }
+  "flights": [
+    {
+      "from": "New York",
+      "to": "London",
+      "depart": "2023-05-10T08:00:00Z",
+      "arrive": "2023-05-10T12:00:00Z",
+      "price": 550,
+      "available_tickets": 100,
+      "destination_picture": "https://i.pinimg.com/564x/f0/96/c8/f096c87084a262583ea2529beb84fccf.jpg"
+    },
+    {
+      "from": "Los Angeles",
+      "to": "Paris",
+      "depart": "2023-05-15T10:30:00Z",
+      "arrive": "2023-05-16T03:00:00Z",
+      "price": 750,
+      "available_tickets": 75,
+      "destination_picture": "https://i.pinimg.com/564x/b8/2e/33/b82e332473712b0f1b56b5b331970d5b.jpg"
+    },
+    {
+      "from": "Chicago",
+      "to": "Dubai",
+      "depart": "2023-05-20T18:15:00Z",
+      "arrive": "2023-05-21T12:45:00Z",
+      "price": 950,
+      "available_tickets": 50,
+      "destination_picture": "https://i.pinimg.com/564x/65/d6/7e/65d67e4d89119d3777343197a2f37608.jpg"
+    },
+    {
+      "from": "Miami",
+      "to": "Cape Town",
+      "depart": "2023-05-25T13:00:00Z",
+      "arrive": "2023-05-26T05:30:00Z",
+      "price": 1100,
+      "available_tickets": 25,
+      "destination_picture": "https://i.pinimg.com/564x/13/94/6a/13946abdf2a6843d3eb5cfbbfb10d2ee.jpg"
+    },
+    {
+      "from": "Atlanta",
+      "to": "Lagos",
+      "depart": "2023-06-01T11:45:00Z",
+      "arrive": "2023-06-02T02:30:00Z",
+      "price": 900,
+      "available_tickets": 75,
+      "destination_picture": "https://i.pinimg.com/736x/f8/70/60/f870606eadc1a59cde285cdebd894d0f.jpg"
+    },
+    {
+      "from": "Houston",
+      "to": "Johannesburg",
+      "depart": "2023-06-08T09:30:00Z",
+      "arrive": "2023-06-09T03:00:00Z",
+      "price": 1200,
+      "available_tickets": 50,
+      "destination_picture": "https://i.pinimg.com/564x/8f/4b/b5/8f4bb5756520e5600caae823ade0d654.jpg"
+    },
+    {
+      "from": "Washington DC",
+      "to": "Accra",
+      "depart": "2023-06-14T17:30:00Z",
+      "arrive": "2023-06-15T06:30:00Z",
+      "price": 850,
+      "available_tickets": 100,
+      "destination_picture": "https://i.pinimg.com/564x/6c/22/1e/6c221ec339143cb970e769a0671cacc8.jpg"
+    },
+    {
+      "from": "San Francisco",
+      "to": "Cairo",
+      "depart": "2023-06-21T15:45:00Z",
+      "arrive": "2023-06-22T06:00:00Z",
+      "price": 1000,
+      "available_tickets": 75,
+      "destination_picture": "https://i.pinimg.com/564x/9b/7b/03/9b7b0387759ea3b8da1561ec111f3c7b.jpg"
+    },
+    {
+      "from": "Seattle",
+      "to": "Cairo",
+      "depart": "2023-07-12T10:00:00Z",
+      "arrive": "2023-07-13T02:15:00Z",
+      "price": 1800,
+      "available_tickets":6,
+      "destination_picture": "https://i.pinimg.com/564x/16/a1/35/16a1351968c01cec04aa6cfdddb22bfa.jpg"
+    }
+    
 ]
 }
-
-
-
 
