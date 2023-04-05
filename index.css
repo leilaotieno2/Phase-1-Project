@@ -1,3 +1,5 @@
+
+
 /* Set body styles */
 body {
   background: linear-gradient(to bottom, #F6D959, #FEEB90);
@@ -126,6 +128,7 @@ footer p {
 
 .left-panel {
   text-align: center;
+  align-self: start;
 }
 
 .right-panel {
@@ -135,32 +138,20 @@ footer p {
 .right-panel h2 {
   margin-top: 0;
 }
+
 .destination-wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-between; /* add this */
 }
-  
+
 #destination-details {
   flex: 1;
-}
-  
-/*.description {
-  margin-left: 20px;
-  text-align: end;
+  margin-right: 20px; /* add this */
 }
 
-#description {
-  margin-top: 20px;
-  text-align: end;
-}
-*/
-.right-panel {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
+.description {
+  text-align: right; /* add this */
 }
 
-#description {
-  margin-right: 20px;
-  align-items: end;
-}
+
