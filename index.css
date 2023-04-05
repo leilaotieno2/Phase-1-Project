@@ -1,138 +1,166 @@
+/* Set body styles */
+body {
+  background: linear-gradient(to bottom, #F6D959, #FEEB90);
+  background-image: url('https://i.pinimg.com/736x/46/f6/22/46f622a0d94f107bb3a2791fb51c852c.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+/* Set container styles */
 .container {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin: 20px;
+  height: 100vh;
+  padding: 00px;
 }
-.flight {
-  flex-basis: calc(33.33% - 20px);
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-.flight img {
+
+/* Set image styles */
+.container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: auto;
+}
+
+/* Set header styles */
+header {
+  background-color:#91670b ;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  font-size: 72px;
+  font-family: 'Retro', sans-serif;
+  margin: 0;
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+}
+
+
+/* Set main styles */
+main {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Set form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  padding: 5px;
+  margin-bottom: 10px;
   border-radius: 5px;
+  border: none;
+}
+
+button[type='submit'] {
+  padding: 10px;
+  background-color:#91670b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button[type='submit']:hover {
+  background-color: #fff;
+  color: #91670b;
+  transition: all 0.3s ease;
+}
+
+/* Set ul styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
   margin-bottom: 10px;
 }
 
-/* Set body styles */
-body {
-    background: linear-gradient(to bottom, #F6D959, #FEEB90);
-    background-image: url('https://i.pinimg.com/736x/46/f6/22/46f622a0d94f107bb3a2791fb51c852c.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+/* Set footer styles */
+footer {
+  background-color: #91670b;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Add left and right panel styles */
+.left-panel, .right-panel {
+  flex-basis: calc(50% - 40px);
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.left-panel {
+  text-align: center;
+}
+
+.right-panel {
+  overflow-y: auto;
+}
+
+.right-panel h2 {
+  margin-top: 0;
+}
+.destination-wrapper {
+  display: flex;
+  align-items: center;
+}
   
-  /* Set container styles */
-  .container {
-    position: relative;
-  }
+#destination-details {
+  flex: 1;
+}
   
-  /* Set image styles */
-  .container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Set header styles */
-  header {
-    background-color:#91670b ;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  header h1 {
-    font-size: 72px;
-    font-family: 'Retro', sans-serif;
-    margin: 0;
-  }
-  
-  /* Set main styles */
-  main {
-    padding: 20px;
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  /* Set form styles */
-  form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  
-  label {
-    margin-bottom: 5px;
-  }
-  
-  input,
-  select {
-    padding: 5px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: none;
-  }
-  
-  button[type='submit'] {
-    padding: 10px;
-    background-color:#91670b;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  button[type='submit']:hover {
-    background-color: #fff;
-    color: #91670b;
-    transition: all 0.3s ease;
-  }
-  
-  /* Set ul styles */
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  /* Set footer styles */
-  footer {
-    background-color: #91670b;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
-  @font-face {
-    font-family: 'Retro';
-    src: url('path/to/retro-font-file.woff2') format('woff2'), url('path/to/retro-font-file.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+/*.description {
+  margin-left: 20px;
+  text-align: end;
+}
+
+#description {
+  margin-top: 20px;
+  text-align: end;
+}
+*/
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+#description {
+  margin-right: 20px;
+  align-items: end;
+}
