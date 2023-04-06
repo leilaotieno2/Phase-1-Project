@@ -20,31 +20,3 @@ The application will use APIs to retrieve data on available flights and pricing 
 <p>
 FlyEase Airlines will feature a user-friendly interface with clear and concise navigation, making it easy for users to search for flights, book tickets, and manage their itineraries. The platform will be optimized for different devices and screen sizes, ensuring a seamless user experience across different platforms. Overall, FlyEase Airlines aims to provide a comprehensive and user-friendly platform for managing flights, making travel planning easy and hassle-free.</p>
 
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-   <title>FlyEasy</title>
-   <link rel="stylesheet" href="index.css">
-   </head>
-<body>
-   <h1>FlyEasy Airlines</h1>
-    <div class="container">
-        <div class="left-panel">
-        <h2 class="description-heading">Get ready to LOL (Land on Location): Our destinations</h2>
-        <ul id="destinations-list"></ul>
-        </div>
-    </div>
-        <div class="right-panel">
-            <h2>Destination Details</h2>
-            <div class="destination-wrapper">
-            <div id="destination-details"></div>
-            <div class="description">
-            <h2>Say goodbye to boredom: Fly to your dream destination</h2>
-            <div id="description"></div>
-            </div>
-        <script src="script.js"></script>
-      </body>
-    </html>
