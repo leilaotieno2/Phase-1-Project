@@ -4,7 +4,7 @@
 <h2>Author</h2>
 <p>Leila Akinyi Otieno </p>
  <h2> Project Description:</h2>
- <h3>flyEase Airlines </h2>
+ <h3>flyEase Airlines  </h2>
 
  <p>FlyEase Airlines is a user-friendly and comprehensive platform for managing flights. The platform enables users to search for available flights and their travel routes, compare prices of tickets offered by different airlines, set desired departure and return dates, book an airplane ticket, cancel a ticket, and receive reward points for each purchased ticket.</p>
 
