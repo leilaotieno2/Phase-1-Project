@@ -30,7 +30,7 @@ FlyEase Airlines will feature a user-friendly interface with clear and concise n
    <link rel="stylesheet" href="index.css">
    </head>
 <body>
-   <h1 centre >FlyEasy Airlines</h1>
+   <h1>FlyEasy Airlines</h1>
     <div class="container">
         <div class="left-panel">
         <h2 class="description-heading">Get ready to LOL (Land on Location): Our destinations</h2>
