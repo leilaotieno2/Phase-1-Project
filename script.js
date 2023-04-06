@@ -175,3 +175,4 @@ rewardsButton.addEventListener("click", () => {
  });
 })
 .catch(error => console.log(error));
+//this is the end
