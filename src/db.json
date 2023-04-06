@@ -1,0 +1,96 @@
+{
+  "flights": [
+    {
+      "from": "New York",
+      "to": "London",
+      "depart": "2023-05-10T08:00:00Z",
+      "arrive": "2023-05-10T12:00:00Z",
+      "price": 550,
+      "available_tickets": 100,
+      "destination_picture": "https://i.pinimg.com/564x/f0/96/c8/f096c87084a262583ea2529beb84fccf.jpg",
+      "description":"Come visit London, the city where tea is always served hot and the weather is always served cold. Take a ride on the iconic London Eye, get lost in the British Museum, or just stroll around Buckingham Palace and wave to the Queen (she's probably busy, but hey, you never know)."
+    },
+    {
+      "from": "Los Angeles",
+      "to": "Paris",
+      "depart": "2023-05-15T10:30:00Z",
+      "arrive": "2023-05-16T03:00:00Z",
+      "price": 750,
+      "available_tickets": 75,
+      "destination_picture": "https://i.pinimg.com/564x/b8/2e/33/b82e332473712b0f1b56b5b331970d5b.jpg",
+      "description":"Ah, Paris, the city of love, croissants, and berets. Take a romantic stroll along the Seine river, climb to the top of the Eiffel Tower and see the beautiful city from above, or visit the Louvre museum and pretend you're in The Da Vinci Code (just don't try to solve any puzzles, please"
+    },
+    {
+      "from": "Chicago",
+      "to": "Dubai",
+      "depart": "2023-05-20T18:15:00Z",
+      "arrive": "2023-05-21T12:45:00Z",
+      "price": 950,
+      "available_tickets": 50,
+      "destination_picture": "https://i.pinimg.com/564x/65/d6/7e/65d67e4d89119d3777343197a2f37608.jpg",
+      "description":"Ready to experience luxury like never before? Come to Dubai, the land of gold, skyscrapers, and sand dunes. Visit the world's tallest building, the Burj Khalifa, take a ride on a camel in the desert, or just relax at one of the many luxurious spas in the city. Don't forget to take lots of Instagram-worthy photos, too!"
+    },
+    {
+      "from": "Miami",
+      "to": "Cape Town",
+      "depart": "2023-05-25T13:00:00Z",
+      "arrive": "2023-05-26T05:30:00Z",
+      "price": 1100,
+      "available_tickets": 25,
+      "destination_picture": "https://i.pinimg.com/564x/13/94/6a/13946abdf2a6843d3eb5cfbbfb10d2ee.jpg",
+      "description": "Get ready for some breathtaking views, both natural and man-made, in Cape Town. Take a cable car up to the top of Table Mountain and see the entire city from above, visit the colorful Bo-Kaap neighborhood and snap some pics for your travel album, or go on a safari and see some wild animals up close (just remember to keep your distance, they're not as friendly as the locals)."
+    },
+    {
+      "from": "Atlanta",
+      "to": "Lagos",
+      "depart": "2023-06-01T11:45:00Z",
+      "arrive": "2023-06-02T02:30:00Z",
+      "price": 900,
+      "available_tickets": 75,
+      "destination_picture": "https://i.pinimg.com/736x/f8/70/60/f870606eadc1a59cde285cdebd894d0f.jpg",
+      "description":"Welcome to Lagos, the city that never sleeps (literally, there's always traffic). But don't let that discourage you, there's plenty of fun to be had here. Visit the historic Slave Trade Museum, dance the night away at one of the many clubs in the city, or just enjoy some delicious jollof rice and plantain at a local restaurant. Don't forget to take a power nap in between activities, you'll need it."
+    },
+    {
+      "from": "Houston",
+      "to": "Johannesburg",
+      "depart": "2023-06-08T09:30:00Z",
+      "arrive": "2023-06-09T03:00:00Z",
+      "price": 1200,
+      "available_tickets": 50,
+      "destination_picture": "https://i.pinimg.com/564x/8f/4b/b5/8f4bb5756520e5600caae823ade0d654.jpg",
+      "description":"Come to Johannesburg and experience the vibrant energy of South Africa. Visit the Apartheid Museum and learn about the country's complex history, go shopping at the trendy Maboneng precinct, or take a day trip to the beautiful Cradle of Humankind and see where the first humans lived millions of years ago. Just don't forget to bring sunscreen, it's called the City of Gold for a reason."
+    },
+    {
+      "from": "Washington DC",
+      "to": "Accra",
+      "depart": "2023-06-14T17:30:00Z",
+      "arrive": "2023-06-15T06:30:00Z",
+      "price": 850,
+      "available_tickets": 100,
+      "destination_picture": "https://i.pinimg.com/564x/6c/22/1e/6c221ec339143cb970e769a0671cacc8.jpg",
+      "description":"Looking for a mix of history, culture, and beach vibes? Accra is the place for you. Visit the beautiful Labadi Beach and swim in the Atlantic Ocean, explore the historic Jamestown neighborhood and see the famous lighthouse, or try some delicious Ghanaian food like fufu and groundnut soup. And who knows, you might even spot a celebrity or two, since Accra is becoming the new hotspot for African stars."
+    },
+    {
+      "from": "San Francisco",
+      "to": "Nairobi",
+      "depart": "2023-06-21T15:45:00Z",
+      "arrive": "2023-06-22T06:00:00Z",
+      "price": 1000,
+      "available_tickets": 75,
+      "destination_picture": "https://i.pinimg.com/564x/9b/7b/03/9b7b0387759ea3b8da1561ec111f3c7b.jpg",
+      "description":"Nairobi: where the lions roar and the zebras roam! Don't be giraffe-brained and miss out on the wildest adventure of your life! Book now and monkey around in the heart of Kenya's bustling capital city. But don't be cheetah-ing yourself - tickets are selling fast!"
+    },
+    {
+      "from": "Seattle",
+      "to": "Cairo",
+      "depart": "2023-07-12T10:00:00Z",
+      "arrive": "2023-07-13T02:15:00Z",
+      "price": 1800,
+      "available_tickets":6,
+      "destination_picture": "https://i.pinimg.com/564x/16/a1/35/16a1351968c01cec04aa6cfdddb22bfa.jpg",
+      "description":"Fly to Cairo and feel like a Pharaoh as you explore the wonders of the ancient world! From the pyramids to the Sphinx, you'll be blown away by the size of these monuments and the mystery that surrounds them. And if you're lucky, you might even discover a secret chamber filled with mummies! Just don't forget to bring your sunscreen, because it's always sunny in Cairo (and we don't want any sunburned Sphinxes)."
+    }
+    
+]
+}
+
