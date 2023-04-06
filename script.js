@@ -68,30 +68,30 @@ fetch("db.json")
         destinationDetails.appendChild(destinationInfo);
 
     // add event listener to book button
-const bookButton = destinationInfo.querySelector(".book-button");
-bookButton.addEventListener("click", () => {
-  // check if there are available tickets
-  if (flight.available_tickets > 0) {
+         const bookButton = destinationInfo.querySelector(".book-button");
+        bookButton.addEventListener("click", () => {
+    // check if there are available tickets
+          if (flight.available_tickets > 0) {
     // decrease available tickets count
-    flight.available_tickets -= 1;
+         flight.available_tickets -= 1;
 
     // update available tickets count on the page
-    const availableTickets = destinationInfo.querySelector("#available-tickets");
-    availableTickets.textContent = flight.available_tickets;
+         const availableTickets = destinationInfo.querySelector("#available-tickets");
+         availableTickets.textContent = flight.available_tickets;
 
     // store number of booked tickets in local storage
-    const bookedTickets = localStorage.getItem("bookedTickets");
-    if (bookedTickets) {
-      localStorage.setItem("bookedTickets", parseInt(bookedTickets) + 1);
-    } else {
-      localStorage.setItem("bookedTickets", 1);
-    }
+         const bookedTickets = localStorage.getItem("bookedTickets");
+          if (bookedTickets) {
+         localStorage.setItem("bookedTickets", parseInt(bookedTickets) + 1);
+        } else {
+         localStorage.setItem("bookedTickets", 1);
+        }
 
     // show booking confirmation message
-    alert(`You have successfully booked a ticket to ${flight.to}!`);
+       alert(`You have successfully booked a ticket to ${flight.to}!`);
 
     // update db.json file
-    fetch("db.json", {
+       fetch("db.json", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -107,9 +107,9 @@ bookButton.addEventListener("click", () => {
   }
 });
 
-// add event listener to cancel button
-const cancelButton = destinationInfo.querySelector(".cancel-button");
-cancelButton.addEventListener("click", () => {
+     // add event listener to cancel button
+    const cancelButton = destinationInfo.querySelector(".cancel-button");
+    cancelButton.addEventListener("click", () => {
   // increase available tickets count
   flight.available_tickets += 1;
 
